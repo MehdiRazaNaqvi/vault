@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;1,600&display=swap');
+
+
+
+
+
+
+
+
+
+.app_left_sidebar {
+
+    width: 20%;
+    height: 100%;
+    background-color: rgba(22, 22, 35, 0.6);
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    position: relative;
+
+}
+
+
+.hamburger_icon {
+    position: absolute;
+    right: -2.5rem;
+    top: 1rem;
+
+    display: none;
+}
+
+
+
+
+
+.logo_div {
+    width: 100%;
+    height: 20%;
+    /* background-color: orange; */
+
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 0.5rem;
+
+
+}
+
+
+.logo_img {
+    height: 50%;
+    margin-left: 2rem;
+
+
+}
+
+
+.logo1 {
+    width: 3rem;
+    height: 3rem;
+
+    margin-left: 2rem;
+}
+
+
+
+.logo2 {
+    height: 0.9rem;
+}
+
+
+
+
+
+.sidebar_menu_item {
+    width: 90%;
+    height: 7%;
+    border-radius: 1rem;
+    /* background-color: red;    */
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+
+
+    color: white;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 0.9rem;
+}
+
+
+.sidebar_menu_middle {
+    height: 30%;
+    width: 75%;
+    /* background-color: pink; */
+    /* justify-self: flex-end; */
+    align-self: flex-end;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 0.5rem;
+
+    padding-right: 1rem;
+    font-size: 0.85rem;
+
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+
+
+}
+
+
+
+.sidebar_middle_item {
+
+    height: 15%;
+    width: 100%;
+    /* background-color: aqua; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    color: white;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+
+
+
+}
+
+
+
+
+
+
+.icons_img {
+    width: 1.1rem;
+    height: 1.1rem;
+
+    margin-left: 1.5rem;
+
+}
+
+
+
+.social_img {
+    width: 1.2rem;
+    height: 1.2rem;
+
+
+}
+
+
+
+
+
+
+
+
+.gray {
+    color: rgba(106, 105, 113, 1);
+}
+
+
+.sidebar_menu_last {
+    height: 12%;
+    width: 100%;
+    /* background-color: gray; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.sidebar_menu_item:hover {
+    background-color: rgba(22, 22, 35, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+    .hamburger_icon {
+
+        display: flex;
+    }
+
+    .app_left_sidebar_mobile {
+        /* background-color: red; */
+        width: 3rem;
+    }
+
+
+    .sidebar_menu_item_mobile {
+        /* background-color: aqua; */
+
+        font-size: 0px;
+
+        justify-content: center;
+        gap: 0%;
+    }
+
+
+    .icons_img_mobile {
+        margin: 0;
+    }
+
+
+
+    .sidebar_menu_middle_mobile {
+        display: none;
+    }
+
+
+    .sidebar_menu_last_mobile {
+        /* background-color: red; */
+        height: 20%;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        gap: 0.5rem;
+    }
+
+
+
+    .logo_div_mobile {
+
+        /* background-color: red; */
+        margin: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+
+    .logo1_mobile {
+        /* height: 50%; */
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .logo2_mobile {
+        display: none;
+
+    }
+
+}

@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app_base {
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+
+}
+
+
+
+
+
+
+.basic_cover_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+.app_main_screen{
+    
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+ 
+
+}
