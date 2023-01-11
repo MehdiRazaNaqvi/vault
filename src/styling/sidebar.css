@@ -28,10 +28,11 @@
 
 
 .hamburger_icon {
-    position: absolute;
-    right: -2.5rem;
-    top: 1rem;
+    /* position: absolute; */
+    /* right: -2.5rem; */
+    /* top: 1rem; */
 
+    /* left: 0%; */
     display: none;
 }
 
@@ -200,13 +201,11 @@
 
 
 
-
-
-
-
 .sidebar_menu_item:hover {
-    background-color: rgba(22, 22, 35, 0.6);
+    background-color: rgba(37, 37, 49, 0.6);
 }
+
+
 
 
 
@@ -249,10 +248,46 @@
 
 @media screen and (max-width: 1150px) {
 
+
+    .logo_div {
+        gap: 2rem;
+    }
+
+
+    .sidebar_width {
+        background-color: rgba(22, 22, 35, 0.99);
+
+    }
+
+    .app_left_sidebar {
+        width: 20rem;
+        position: absolute;
+        left: 0%;
+
+    }
+
+
+
     .hamburger_icon {
 
         display: flex;
+        align-self: flex-start;
+        margin-top: 1rem;
+        margin-left: 1rem;
+
     }
+
+    .hamburger_icon_mobile {
+
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        margin-top: 1rem;
+        margin-left: 0rem;
+
+
+    }
+
 
     .app_left_sidebar_mobile {
         /* background-color: red; */
@@ -316,6 +351,65 @@
     .logo2_mobile {
         display: none;
 
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .sidebar_width {
+        width: 100%;
+
+    }
+
+    .icons_img_mobile {
+        /* margin-left: 0.5rem; */
+    }
+
+
+    .logo1_mobile {
+        /* margin-left: 1rem; */
+        height: 2.5rem;
+    }
+
+    .logo2_mobile {
+        height: 0.7rem;
+
+    }
+
+    .logo_div_mobile {
+        gap: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    /* .app_left_sidebar {
+        width: 12rem;
+    } */
+
+
+    .logo_div {
+        gap: 1rem;
     }
 
 }

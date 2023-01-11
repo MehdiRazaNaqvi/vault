@@ -36,10 +36,10 @@ const App = () => {
 
 
 
-        <div className= {sidebar? "app_left_sidebar app_left_sidebar_mobile" : "app_left_sidebar" }>
+        <div className= {sidebar? "app_left_sidebar app_left_sidebar_mobile" : "app_left_sidebar sidebar_width" }>
 
 
-            <GiHamburgerMenu onClick={() => setSidebar(!sidebar)} className="hamburger_icon" size={25} color="lightgray" />
+            <GiHamburgerMenu onClick={() => setSidebar(!sidebar)} className={sidebar? "hamburger_icon hamburger_icon_mobile" : "hamburger_icon"} size={25} color="lightgray" />
 
             <span className={sidebar? "logo_div logo_div_mobile" : "logo_div"}>
 

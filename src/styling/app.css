@@ -37,11 +37,44 @@
 
 
 
-.app_main_screen{
-    
+.app_main_screen {
+
     width: 80%;
     height: 100%;
     /* background-color: green; */
- 
 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .basic_cover_img {
+        display: none;
+    }
+
+
+    .app_base {
+        background-color: black;
+    }
+
+    
 }
