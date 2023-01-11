@@ -67,7 +67,7 @@
 
 
 .main_screen_grid_div {
-    height: 80%;
+    height: 25rem;
     width: 60%;
     /* background-color: pink; */
     margin-bottom: 3rem;
@@ -113,6 +113,9 @@
 .grid_item_price {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
+
+    padding: 0;
+    margin: 0;
 
 
 }
